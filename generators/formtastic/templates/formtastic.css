@@ -89,14 +89,14 @@ form.formtastic fieldset ol li ul.errors li { padding:0; border:none; display:li
 
 /* STRING & NUMERIC OVERRIDES
 --------------------------------------------------------------------------------------------------*/
-form.formtastic fieldset ol li.string input { width:74%; }
-form.formtastic fieldset ol li.password input { width:74%; }
-form.formtastic fieldset ol li.numeric input { width:74%; }
+form.formtastic fieldset ol li.string input { max-width:74%; }
+form.formtastic fieldset ol li.password input { max-width: 13em; }
+form.formtastic fieldset ol li.numeric input { max-width:74%; }
 
 
 /* TEXTAREA OVERRIDES
 --------------------------------------------------------------------------------------------------*/
-form.formtastic fieldset ol li.text textarea { width:74%; }
+form.formtastic fieldset ol li.text textarea { max-width:74%; }
 
 
 /* HIDDEN OVERRIDES
